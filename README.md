@@ -1,7 +1,7 @@
 # PlexConfiguration
 Guidance on building a Ubuntu Plex server. Just click on a link and follow along. 
 
-The purpose of this github is to provide step by step configuration for a complete media server setup that covers grounds for most users out there. I will provide all my infomration sources at the bottom of each guide i make. I wish to add i did not create any of the applications in these guides i am simply providing a centralised location for instructions on getting them up and running
+The purpose of this github is to provide step by step configuration for a complete media server setup that covers grounds for most users out there. I will provide all my information sources at the bottom of each guide i make. I wish to add i did not create any of the applications in these guides i am simply providing a centralised location for instructions on getting them up and running
 
 # Localised Server 
 [Plex (Obviously)](/Plex.md), 
