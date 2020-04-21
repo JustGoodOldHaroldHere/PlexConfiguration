@@ -21,6 +21,7 @@ Install the package
 ```
 dpkg -i plexmediaserver*
 ```
+If the wildcard ( * ) does not work type ' ls ' (without '') and copy the name of your downloaded package
 
 Plex will install and then be active @ http://localhost:32400/web for you to setup (if this is a local server on your network replace localhost with your servers internal IP). Now if you are using a cloud solution you will most likely need to use SSH Tunneling in order to get to that link. If you are using Putty, open a Putty window type your IP/Hostname and port and expand the SSH tab on the left
 
