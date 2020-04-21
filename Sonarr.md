@@ -1,1 +1,87 @@
-h
+# Installation for Sonarr
+Sonarr is a web based app that automates downloading and handling of tv programs. 
+## Run all commands with sudo 
+
+You have 2 options and i will cover both, Sonarrv2 or Sonarrv3 v2 is the mainstream supported version and v3 at this current time is an beta and may have major issues. Please refer to the main sonarr website for details
+
+### V2 installation
+
+#### install mono
+
+
+Add the repo
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0xA236C58F409091A18ACA53CBEBFF6B99D9B78493
+echo "deb http://apt.sonarr.tv/ master main" | sudo tee /etc/apt/sources.list.d/sonarr.list
+```
+
+update and install
+```
+sudo apt update
+sudo apt install nzbdrone 
+```
+
+make a data dir and set permissions
+```
+mkdir /var/lib/sonarr
+chmod 774 /var/lib/sonarr
+shown sonarr:sonarr /var/lib/sonarr -R
+```
+
+Make a .service 
+```
+nano /etc/systemd/system/sonarr.service
+```
+
+default service file
+```
+[Unit]
+Description=Sonarr Daemon
+After=network.target
+
+[Service]
+# Change and/or create the required user and group.
+User=sonarr
+Group=sonarr
+
+# The UMask parameter controls the permissions of folders and files created.
+#UMask=002
+
+# The -data=/path argument can be used to force the config/db folder
+ExecStart=/usr/bin/mono --debug /opt/NzbDrone/NzbDrone.exe -nobrowser -data=/var/lib/sonarr
+
+Type=simple
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+Save and close
+
+enable service 
+```
+systemctl enable sonarr.service
+```
+
+start the service and check it is working
+```
+service sonarr start
+systemctl status sonarr
+```
+
+### v3 installation
+
+add repo and key
+```
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 2009837CBFFD68F45BC180471F4F90DE2A9B4BF8
+echo "deb https://apt.sonarr.tv/ubuntu xenial main" | tee /etc/apt/sources.list.d/sonarr.list
+```
+
+Update and install
+```
+apt update
+apt install sonarr
+```
+
