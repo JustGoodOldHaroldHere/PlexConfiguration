@@ -7,7 +7,7 @@ I will skip the introduction to Plex as i may ask why you are here if you are no
 
 Jump to this link and choose your OS, if Ubuntu is not there then go for Linux. Click the 'Choose Distrobution' which will show the list of avaliable options. Right click your option and copy its link address
 
-Jump to the tmp firectory
+Jump to the tmp directory
 ```
 cd /tmp
 ```
