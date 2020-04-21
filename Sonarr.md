@@ -2,7 +2,7 @@
 Sonarr is a web based app that automates downloading and handling of tv programs. 
 ## Run all commands with sudo 
 
-You have 2 options and i will cover both, Sonarrv2 or Sonarrv3 v2 is the mainstream supported version and v3 at this current time is an beta and may have major issues. Please refer to the main sonarr website for details
+You have 2 options and i will cover both, Sonarrv2 or Sonarrv3 v2 is the mainstream supported version and v3 at this current time is a beta and may have major issues. Please refer to the main sonarr website for details
 
 ### V2 installation
 
