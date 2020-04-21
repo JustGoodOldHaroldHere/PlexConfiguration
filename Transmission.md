@@ -33,7 +33,7 @@ save and close when you are done and restart the service
 service transmission-daemon start
 ```
 
-The user/group that transmission creates is debian-transmission and i would advise adding it to the media group
+The user/group that transmission creates is debian-transmission and i would advise adding it to the media group (read the [general.md](/general.md) )
 ```
 usermod -aG media debian-transmission
 ```
