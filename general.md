@@ -56,7 +56,7 @@ So one important step is making your folder tree for your library. I have mine i
 
 radarr - Folder where transmission downloads movies to and Radarr scans for new files to rename and manage (owner radarr:media)
 
-sonarr - Folder where transmission downloads TV programs and Sonarr scans for new files to rename and manage (owner sonarr:media
+sonarr - Folder where transmission downloads TV programs and Sonarr scans for new files to rename and manage (owner sonarr:media)
 
 wasteland - where incomplete/partial downloads go for transmission (debian-transmission:debian-transmission)
 
