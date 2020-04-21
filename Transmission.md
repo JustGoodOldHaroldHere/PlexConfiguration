@@ -33,8 +33,10 @@ save and close when you are done and restart the service
 service transmission-daemon start
 ```
 
-The user/group that transmission creates is debain-transmission
-
+The user/group that transmission creates is debain-transmission and i would advise adding it to the media group
+```
+usermod -aG media debian-transmission
+```
 ##### additional info
 
 The reason we do not use download directories is because you specify them within Radarr and Sonarr. The same with permissions
