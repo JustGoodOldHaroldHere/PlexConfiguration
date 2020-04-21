@@ -52,7 +52,7 @@ ufw allow plexmediaserver
 
 ### File structure
 
-So one important step is making your folder tree for your library. I have mine in /mnt/plex and use the following layout. permissions are set 774 accross the board (RWE for owner, RWE for group, R for public)
+So one important step is making your folder tree for your library. I have mine in /mnt/plex and use the following layout. permissions are set 774 accross the board (RWE for owner, RWE for group, R for public). For cloud users the same applies except permissions/owners
 
 radarr - Folder where transmission downloads movies to and Radarr scans for new files to rename and manage (owner radarr:media)
 
