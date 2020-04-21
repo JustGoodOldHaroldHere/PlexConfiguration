@@ -1,6 +1,5 @@
-Radarr is very much Sonarr but for movies. it is an automated way of downloading and handling movies.
-
 # Installation 
+Radarr is very much just Sonarr but for movies. it is an automated way of downloading and handling movies.
 ## Run all commands with sudo 
 
 
