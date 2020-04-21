@@ -19,7 +19,7 @@ create our media group
 groupadd media
 ```
 
-adding users to the media group - You want to have a think about this as not everthings needs to be in here radarr, sonarr, plex and transmission are the members that require access
+adding users to the media group - You want to have a think about this as not everthing needs to be in here radarr, sonarr, plex and transmission are the members that require access
 ```
 usermod -aG media USERNAME
 ```
