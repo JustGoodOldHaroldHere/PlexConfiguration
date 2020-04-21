@@ -37,4 +37,4 @@ Scroll the left pane back up and click session
 
 Now if you hit open and authenticate you can go to your web browser on your local machine to the Plex link above
 
-Information sources: https://support.plex.tv/articles/200288586-installation/
+Information sources: [Plex](https://support.plex.tv/articles/200288586-installation/)
