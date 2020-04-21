@@ -28,6 +28,8 @@ sudo apt update
 sudo apt install nzbdrone 
 ```
 
+#### Now is good time to see the general.md for setting up users and groups if you have not already
+
 make a data dir and set permissions
 ```
 mkdir /var/lib/sonarr
