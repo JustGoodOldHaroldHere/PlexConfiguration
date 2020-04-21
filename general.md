@@ -19,13 +19,13 @@ create our media group
 groupadd media
 ```
 
-adding users to the media group - You want to have a think about this as not everthing needs to be in here radarr, sonarr, plex and transmission are the members that require access
+adding users to the media group - You want to have a think about this as not everthing needs to be in here radarr, sonarr, plex and transmission are the members that require access to your library
 ```
 usermod -aG media USERNAME
 ```
 
 ### Ubuntu firewall 
-Now this is not a problem really for internal servers as one would hope you have this sorted at your router but cloud users might be interested in this. I have my firewall enabled and allow certain ports through such as 443 for HTTPS, 80 for HTTP an obscure port for SSH. I then make applications like plex which contain all of the plex ports and allow that application through. My firewall has the default of deny all
+Now this is not a problem really for internal servers as one would hope you have this sorted at your router but cloud users might be interested in this. I have my firewall enabled and allow certain ports through such as 443 for HTTPS, 80 for HTTP and an obscure port for SSH. I then make applications like plex which contain all of the plex ports and allow that application through. My firewall has the default of deny all
 
 i have uploaded my application file here you will find it in the GitHub folder of [/etc/ufw/applications.d/](/etc/ufw/applications.d/plexmediaserver) 
 
