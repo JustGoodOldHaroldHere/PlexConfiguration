@@ -5,7 +5,7 @@ I will skip the introduction to Plex as i may ask why you are here if you are no
 ## 1 Installation
 ### Run all commands with sudo
 
-Jump to this link and choose your OS, if Ubuntu is not there then go for Linux. Click the 'Choose Distrobution' which will show the list of avaliable options. Right click your option and copy its link address
+Jump to [this link](https://www.plex.tv/en-gb/media-server-downloads/) and choose your OS, if Ubuntu is not there then go for Linux. Click the 'Choose Distrobution' which will show the list of avaliable options. Right click your option and copy its link address
 
 Jump to the tmp directory
 ```
