@@ -26,7 +26,7 @@ nano /var/lib/transmission-daemon/info/settings.json
 ```
 I have uploaded my settings.json [here](/var/lib/transmission-daemon/info/settings.json)
 
-Generally speaking you want to change the umask value, RPC username and RPC password
+Generally speaking you want to change the umask value, RPC username and RPC password. I leave my unask value as 0 because Sonarr and Radarr will handle it. You might want to specify a download directory if you want to use this daemon for other things than Sonarr or Radarr
 
 save and close when you are done and restart the service
 ```
