@@ -1,5 +1,5 @@
 # General configuration 
-Here i will cover some basic main basis for your setup 
+Here i will cover some basic configuration for your setup
 ## Run all commands with sudo
 
 ### Users and groups 
