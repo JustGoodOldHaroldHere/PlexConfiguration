@@ -10,7 +10,8 @@ The purpose of this github is to provide step by step configuration for a comple
 [Transmission](/Transmission.md), 
 [Tor](/Tor.md) , 
 [Jackett](/Jackett.md), 
-[Nginx & Certbot](/NginxAndCertbot.md)
+[Nginx & Certbot](/NginxAndCertbot.md) ,
+[General Configuration](/general.md)
 
 # Cloud Server
 All of the above with [RClone](/Rclone.md) and/or [PlexDrive](/PlexDrive.md) using Google Drive as Storage. 
