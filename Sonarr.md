@@ -15,7 +15,7 @@ echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | su
 apt update
 apt install mono-devel
 ```
-
+#### install sonarr
 Add the repo
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0xA236C58F409091A18ACA53CBEBFF6B99D9B78493
@@ -93,3 +93,6 @@ apt install sonarr
 ```
 
 Now Sonarr will by default spin up a webui @ http://localhost:8989 you can open this port to the outside world (not recommended) or use SSH Tunneling for cloud setups (SSH Tunneling is explained in the Plex install for Putty users). Local servers just change the localhost part to your servers internal IP
+
+
+Information sources: [Sonarr1](https://github.com/Sonarr/Sonarr/wiki/Installation) , [Sonarr2](https://github.com/Sonarr/Sonarr/wiki/Autostart-on-Linux) , [Sonarr3](https://sonarr.tv/#downloads-v3-linux-ubuntu)
