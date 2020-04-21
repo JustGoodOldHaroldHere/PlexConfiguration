@@ -2,16 +2,16 @@
 Guidance on building a Ubuntu Plex server. Just click on a link follow along
 
 # Localised Server 
-[Plex (Obviously)](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Plex%20Installation.md "Plex (Obviously)"), 
-[Radarr](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Radarr%20Installation.md "Radarr"), 
-[Sonarr](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Sonarr%20Installation.md "Sonarr"), 
-[Transmission](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Transmission%20Installation.md "Transmission"), 
+[Plex (Obviously)](/Plex.md), 
+[Radarr](/Radarr.md), 
+[Sonarr](Sonarr.md), 
+[Transmission](/Transmission.md), 
 [Tor](/Tor.md) , 
-[Jackett](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Jackett%20Installation.md "Jackett"), 
-[Nginx & Certbot](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Nginx%20And%20Certbot.md "Nginx & Certbot")
+[Jackett](/Jackett.md), 
+[Nginx & Certbot](/NginxAndCertbot.md)
 
 # Cloud Server
-All of the above with [RClone](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Rclone%20Installation.md "RClone") and/or [PlexDrive](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/PlexDrive%20Installation.md "PlexDrive") using Google Drive as Storage. 
+All of the above with [RClone](/Rclone.md) and/or [PlexDrive](/PlexDrive.md) using Google Drive as Storage. 
 
 # Assumptions
 You have obtained your own Cloud/Local server and installed Ubuntu 18.04 LTS. If you are using a cloud based solution with Google Drive, you have purchased your Google Drive subscription.
