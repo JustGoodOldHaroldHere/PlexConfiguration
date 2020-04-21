@@ -28,7 +28,9 @@ Plex will install and then be active @ http://localhost:32400/web for you to set
 Once you have expanded that tab, you guessed it. Click Tunnels 
 
 Source port is 32400
+
 Destination is localhost:32400
+
 Click add
 
 Scroll the left pane back up and click session
