@@ -29,7 +29,7 @@ Now this is not a problem really for internal servers as one would hope you have
 
 i have uploaded my application file here you will find it in the GitHub folder of [/etc/ufw/applications.d/](/etc/ufw/applications.d/plexmediaserver) 
 
-Set the firewall to default deny *This may effect your SSH Session*
+Set the firewall to default deny - *This may effect your SSH Session*
 ```
 ufw enable
 ufw default deny incoming
