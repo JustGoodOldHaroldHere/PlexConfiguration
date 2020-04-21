@@ -20,7 +20,7 @@ tar -xvzf Radarr.develop.*.linux.tar.gz
 mv Radarr /opt
 ```
 
-### Now is good time to see the genral.md for setting up users and groups if you have not already
+### Now is good time to see the general.md for setting up users and groups if you have not already
 
 
 Make a data directory
