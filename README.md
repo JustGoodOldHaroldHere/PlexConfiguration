@@ -15,3 +15,6 @@ All of the above with [RClone](http://https://github.com/JustGoodOldHaroldHere/P
 
 # Assumptions
 You have obtained your own Cloud/Local server and installed Ubuntu 18.04 LTS. If you are using a cloud based solution with Google Drive, you have purchased your Google Drive subscription.
+
+# Additional
+Not all of the information is linked here so feel free to take a look around for certain configuration files. Where you find them on here is the layout they are on my Plex setup
