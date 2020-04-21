@@ -31,3 +31,7 @@ To test it is working - This will provide your Tor IP address back to you
 ```
 curl --socks5 127.0.0.1:9050 http://checkip.amazonaws.com/
 ```
+
+
+
+information sources [Tor1](https://2019.www.torproject.org/docs/debian.html.en)
