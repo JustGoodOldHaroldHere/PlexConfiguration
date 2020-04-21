@@ -6,7 +6,7 @@ Guidance on building a Ubuntu Plex server. Just click on a link follow along
 [Radarr](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Radarr%20Installation.md "Radarr"), 
 [Sonarr](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Sonarr%20Installation.md "Sonarr"), 
 [Transmission](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Transmission%20Installation.md "Transmission"), 
-[Tor](/Tor Installation.md) , 
+[Tor]('/Tor Installation.md') , 
 [Jackett](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Jackett%20Installation.md "Jackett"), 
 [Nginx & Certbot](http://https://github.com/JustGoodOldHaroldHere/PlexConfiguration/blob/master/Nginx%20And%20Certbot.md "Nginx & Certbot")
 
