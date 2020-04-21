@@ -93,6 +93,7 @@ Update and install
 apt update
 apt install sonarr
 ```
+During installation you will be asked about the user and group
 
 Now Sonarr will by default spin up a webui @ http://localhost:8989 you can open this port to the outside world (not recommended) or use SSH Tunneling for cloud setups (SSH Tunneling is explained in the Plex install for Putty users). Local servers just change the localhost part to your servers internal IP
 
