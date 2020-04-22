@@ -32,8 +32,8 @@ set ownership and permissions
 ```
 chmod 774 /var/lib/radarr
 chown radarr:radarr /var/lib/radarr -R 
-chmod 774 /opt/radarr -R
-chown radarr:radarr /opt/radarr -R
+chmod 774 /opt/Radarr -R
+chown radarr:radarr /opt/Radarr -R
 ```
 
 creating a .service file for Radarr
