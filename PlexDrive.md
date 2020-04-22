@@ -44,7 +44,7 @@ Restart=on-abort
 WantedBy=default.target
 ```
 
-Plexdrive will go through obtaining a client ID and secret [See Rclone.md](/rclone.md)
+Plexdrive will go through obtaining a client ID and secret [See Rclone.md](/Rclone.md)
 
 
 Information sources: [PlexDrive1](https://github.com/plexdrive/plexdrive)
