@@ -3,6 +3,11 @@ Transmission like many others is a way of handling and downloading torrents.
 
 ## run all commands with sudo 
 
+install software properties
+```
+apt-get install software-properties-common
+```
+
 add the repository 
 ```
 add-apt-repository ppa:transmissionbt/ppa
