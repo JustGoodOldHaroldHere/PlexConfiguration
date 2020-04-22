@@ -27,7 +27,7 @@ usermod -aG media USERNAME
 ### Ubuntu firewall 
 Now this is not a problem really for internal servers as one would hope you have this sorted at your router but cloud users might be interested in this. I have my firewall enabled and allow certain ports through such as 443 for HTTPS, 80 for HTTP and an obscure port for SSH. I then make applications like plex which contain all of the plex ports and allow that application through. My firewall has the default of deny all
 
-i have uploaded my application file here you will find it in the GitHub folder of [/etc/ufw/applications.d/](/etc/ufw/applications.d/plexmediaserver) 
+i have uploaded my application file [here](/etc/ufw/applications.d/plexmediaserver) 
 
 Set the firewall to default deny - *This may effect your SSH Session*
 ```
