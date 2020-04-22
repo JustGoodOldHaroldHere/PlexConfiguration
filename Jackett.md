@@ -73,5 +73,13 @@ Environment=XDG_CONFIG_HOME=/var/lib/jackett
 WantedBy=multi-user.target
 ```
 
+Reload and restart the service 
+```
+systemctl daemon-reload
+service jackett restart
+```
+
+Now Jackett will by default spin up a webui @ http://localhost:9117 you can open this port to the outside world (not recommended) or use SSH Tunneling for cloud setups (SSH Tunneling is explained in the Plex install for Putty users). Local servers just change the localhost part to your servers internal IP
 
 
+Information sources: [Jackett1](https://github.com/Jackett/Jackett)
