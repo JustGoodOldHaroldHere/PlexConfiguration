@@ -4,7 +4,7 @@ Tor or The Onion Router is a way of enabling annonymous communication accross th
 
 ##### Proxies are not recommended in Jackett as they leak requests and can cause high CPU usage. Please see Jacketts GitHub for further info
 
-generally tors repo is included when you install Ubuntu and can be installed with the following 
+generally it is as easy as
 ```
 apt-get install tor
 ```
