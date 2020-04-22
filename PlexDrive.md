@@ -44,7 +44,15 @@ Restart=on-abort
 WantedBy=default.target
 ```
 
-Plexdrive will go through obtaining a client ID and secret [See Rclone.md](/Rclone.md)
+It is suggested for the first run to NOT use the service and run in a window to go through initial config for obtaining a client ID and secret [See Rclone.md](/Rclone.md)
+```
+/usr/bin/plexdrive mount -c /root/.plexdrive -o allow_other /mnt/plexdrive
+```
+ 
+to enable the service
+```
+systemctl enable plexdrive.service
+```
 
 
 Information sources: [PlexDrive1](https://github.com/plexdrive/plexdrive)
