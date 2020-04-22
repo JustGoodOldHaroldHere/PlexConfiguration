@@ -24,6 +24,8 @@ move the files to the opt folder
 mv Jackett /opt/
 ```
 
+### Now is good time to see the general.md for setting up users and groups if you have not already
+
 set ownership/permissions for folder
 ```
 chown jackett:jackett /opt/Jackett -R
