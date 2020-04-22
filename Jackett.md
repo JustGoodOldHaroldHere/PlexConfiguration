@@ -32,7 +32,7 @@ chmod 774 /opt/Jackett -R
 
 install as a service
 ```
-./opt/Jackett/install_service_systemd.sh
+/opt/Jackett/install_service_systemd.sh
 ```
 
 as my Jackett user has no home directory, i will need to edit the .service file for Jackett and add a data path to it
