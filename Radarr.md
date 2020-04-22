@@ -38,7 +38,7 @@ creating a .service file for Radarr
 nano /etc/systemd/system/radarr.service
 ```
 
-A Default service configuration
+A service configuration
 ```
 [Unit]
 Description=Radarr Daemon
