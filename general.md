@@ -46,7 +46,7 @@ Now the above shows pre-defined services so 'ufw allow http' is 'ufw allow 80' t
 
 if you have added the plexmediaserver application to the relevant directory, to enable it you would use the following
 ```
-ufw update plexmediaserver
+ufw app update plexmediaserver
 ufw allow plexmediaserver
 ```
 
