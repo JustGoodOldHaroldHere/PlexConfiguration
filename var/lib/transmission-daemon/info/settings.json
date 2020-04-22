@@ -1,3 +1,5 @@
+# remove #lines
+# I have set this so it will not seed but of course you can change that as required
 {
     "alt-speed-down": 50,
     "alt-speed-enabled": false,
