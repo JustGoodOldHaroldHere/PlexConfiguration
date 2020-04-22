@@ -52,8 +52,6 @@ nano /etc/systemd/system/jackett.service
 
 example systemd service file with the data path 
 ```
-
-
 [Unit]
 Description=Jackett Daemon
 After=network.target
