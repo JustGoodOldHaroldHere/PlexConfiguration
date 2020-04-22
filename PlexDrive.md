@@ -5,7 +5,7 @@ PlexDrive is verymuch similar to Rclone howver is more designed to work with, yo
 
 Plex drive is dead simple to install however currently requires manual updates
 
-Grag the latest [release](https://github.com/plexdrive/plexdrive/releases) - replace my link with yours
+Grab the latest [release](https://github.com/plexdrive/plexdrive/releases) - replace my link with yours
 ```
 cd /tmp
 wget https://github.com/plexdrive/plexdrive/releases/download/5.1.0/plexdrive-linux-amd64
