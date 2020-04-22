@@ -68,4 +68,45 @@ plex/tv - folder Sonarr places content when it is renamed and the folder Plex po
 
 plex/films - folder Radarr places content when it is renamed and the folder Plex points to for films
 
+### Automagic updates
 
+now you can use the likes of livepatch but here is another solution 
+
+install package
+```
+apt install unattended-upgrades
+```
+
+Edit the config
+```
+/etc/apt/apt.conf.d/50unattended-upgrades
+```
+
+Here is an example config for the section you will need to edit - See information sources for more details
+```
+Unattended-Upgrade::Allowed-Origins {
+        "${distro_id}:${distro_codename}";
+        "${distro_id}:${distro_codename}-security";
+        "${distro_id}:${distro_codename}-updates";
+//      "${distro_id}:${distro_codename}-proposed";
+//      "${distro_id}:${distro_codename}-backports";
+};
+```
+
+save and close
+
+enable the automatic upgrades and specify settings
+```
+nano /etc/apt/apt.conf.d/20auto-upgrades
+```
+
+an example 
+```
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Download-Upgradeable-Packages "1";
+APT::Periodic::AutocleanInterval "7";
+APT::Periodic::Unattended-Upgrade "1";
+```
+
+
+Information sources [Updates1](https://help.ubuntu.com/lts/serverguide/automatic-updates.html)
