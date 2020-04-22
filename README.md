@@ -26,4 +26,4 @@ This GitHub is not fully finished yet so if you spot any errors or spelling mist
 
 If you are willing to spare 2 minutes. Please do share this guide
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://github.com/JustGoodOldHaroldHere/PlexConfiguration)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https://github.com/JustGoodOldHaroldHere/PlexConfiguration)
