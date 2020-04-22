@@ -25,5 +25,3 @@ Not all of the information is linked here so feel free to take a look around for
 This GitHub is not fully finished yet so if you spot any errors or spelling mistakes let me know (I can imagine their is many)
 
 If you are willing to spare 2 minutes. Please do share this guide
-
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https://github.com/JustGoodOldHaroldHere/PlexConfiguration)  
