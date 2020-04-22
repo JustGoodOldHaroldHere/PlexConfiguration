@@ -26,4 +26,11 @@ This GitHub is not fully finished yet so if you spot any errors or spelling mist
 
 If you are willing to spare 2 minutes. Please do share this guide
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https://github.com/JustGoodOldHaroldHere/PlexConfiguration)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https://github.com/JustGoodOldHaroldHere/PlexConfiguration)  FB.ui({
+  method: 'feed',
+  link: 'https://developers.facebook.com/docs/reference/dialogs/',
+  picture: 'http://fbrell.com/f8.jpg',
+  name: 'Facebook Dialogs',
+  caption: 'Reference Documentation',
+  description: 'Using Dialogs to interact with people.'
+}, function(response){});
