@@ -1,0 +1,24 @@
+[Unit]
+Description=RClone Service
+After=plexdrive.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount GDrive: /mnt/gdrive \
+   --allow-other \
+   --dir-cache-time=240h \
+   --cache-workers=7 \
+   --cache-db-purge \
+   --umask 002 \
+   --rc \
+   --buffer-size 64M \
+   --vfs-cache-mode=writes \
+   --cache-dir /mnt/rclone_cache_upload/ \
+   --log-level INFO \
+   --log-file /var/log/rclonemount.log  
+ExecStop=/usr/bin/sudo /usr/bin/fusermount -uz /mnt/gdrive
+Restart=on-abort
+
+[Install]
+WantedBy=default.target
