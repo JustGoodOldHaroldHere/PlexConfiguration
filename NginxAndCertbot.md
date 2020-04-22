@@ -26,7 +26,7 @@ install required packages
 apt-get install certbot python-certbot-nginx nginx
 ```
 
-Now you have 2 options, obtain and install your certificate or just obtain
+Now you have 2 options, obtain and install your certificate or just obtain. I would first setup your nginx configuration with all of your domains. Of course leave out the certificate location otherwise nginx wont start but setting up the configuration (even you are placing in settings for SSL) for the domains you wish to obtain a certificate for will save you time as Certbot will try and detect them. It is worth noting if nginx will not start Certbot will fail
 
 Just obtain
 ```
