@@ -14,6 +14,7 @@ apt install mono-devel
 
 Radarr installation 
 ```
+cd /tmp
 curl -L -O $( curl -s https://api.github.com/repos/Radarr/Radarr/releases | grep linux.tar.gz | grep browser_download_url | head -1 | cut -d \" -f 4 )
 tar -xvzf Radarr.develop.*.linux.tar.gz
 mv Radarr /opt
