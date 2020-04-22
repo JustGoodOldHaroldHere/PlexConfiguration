@@ -16,7 +16,7 @@ add-apt-repository ppa:transmissionbt/ppa
 update and install
 ```
 apt update
-apt-get install transmission-daemon transmission-common 
+apt-get install transmission-daemon
 ```
 
 ##### editing the settings.json
