@@ -43,7 +43,7 @@ Follow the instructions on the screen
 So for configuring Nginx again there are a million ways to do so and it all depends on your requirements. I have uploaded my Nginx config [here](/etc/nginx/)
 
 
-You can also install Nginx amplify which allows you to have some nice look statistics and monitoring for your webserver. you will need to sign up [here](https://amplify.nginx.com/login) and it will provide instructions upon login. Again my nginx config is already setup with this
+You can also install Nginx amplify which allows you to have some nice look statistics and monitoring for your webserver. you will need to sign up [here](https://amplify.nginx.com/login) and it will provide instructions upon login. My nginx config is already setup with this
 
 
 information sources: [Nginx1](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx)
