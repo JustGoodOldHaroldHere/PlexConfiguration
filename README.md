@@ -25,3 +25,5 @@ Not all of the information is linked here so feel free to take a look around for
 This GitHub is not fully finished yet so if you spot any errors or spelling mistakes let me know (I can imagine their is many)
 
 If you are willing to spare 2 minutes. Please do share this guide
+
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://froala.com/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
