@@ -1,5 +1,5 @@
 # Installation 
-Jackett is a way to provide API support for all your needed indexers and i use it as my bridge from Sonarr/Radarr - desired indexer and push the traffic through the Tor proxy whilst doing so so the chain goes a little like this. Radarr>Jackett>Tor>Indexer
+Jackett is a way to provide API support for all your needed indexers and i use it as my bridge from Sonarr/Radarr - desired indexer and push the traffic through the Tor proxy whilst doing so. The chain goes a little like this. Radarr>Jackett>Tor>Indexer
 
 ## Run all commands with sudo 
 ##### As mentioned in the Tor installation. Jackett does not recommend using a proxy as it can leak requests and cause high CPU usage so configure this at your own risk
