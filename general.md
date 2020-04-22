@@ -51,6 +51,16 @@ ufw app update plexmediaserver
 ufw allow plexmediaserver
 ```
 
+To check what you have allowed through 
+```
+ufw status
+```
+to delete an entry
+```
+ufw delete allow 80
+```
+
+
 ### File structure
 
 So one important step is making your folder tree for your library. I have mine in /mnt/plex and use the following layout. permissions are set 774 accross the board (RWE for owner, RWE for group, R for public). For cloud users the same applies except permissions/owners
