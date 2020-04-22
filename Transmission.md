@@ -5,7 +5,7 @@ Transmission like many others is a way of handling and downloading torrents.
 
 add the repository 
 ```
-sudo add-apt-repository ppa:transmissionbt/ppa
+add-apt-repository ppa:transmissionbt/ppa
 ```
 
 update and install
