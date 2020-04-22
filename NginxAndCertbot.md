@@ -3,9 +3,9 @@ the purpose of nginx and certbot is a lightweight web server. I use this to allo
 ## Run all commands with sudo
 
 ### You will need to know/own the following 
-A domain name - i will be using domain.com 
-ensure ports 80 and 443 are open to your server
-point your desired domains and subdomains to your servers external IP address in DNS 
+- A domain name - i will be using domain.com 
+- ensure ports 80 and 443 are open to your server
+- point your desired domains and subdomains to your servers external IP address in DNS 
 
 Now there are again a million ways to do this but i like short, simply and rather bulletproof 
 
