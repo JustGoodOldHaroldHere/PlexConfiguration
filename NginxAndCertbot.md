@@ -26,7 +26,7 @@ install required packages
 apt-get install certbot python-certbot-nginx nginx
 ```
 
-Now you have 2 options, obtains and install your certificate or just obtain
+Now you have 2 options, obtain and install your certificate or just obtain
 
 Just obtain
 ```
