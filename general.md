@@ -31,6 +31,7 @@ i have uploaded my application file [here](/etc/ufw/applications.d/plexmediaserv
 
 Set the firewall to default deny - *This may effect your SSH Session*
 ```
+apt-get install ufw
 ufw enable
 ufw default deny incoming
 ```
