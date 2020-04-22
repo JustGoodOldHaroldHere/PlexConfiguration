@@ -52,7 +52,27 @@ nano /etc/systemd/system/jackett.service
 
 example systemd service file with the data path 
 ```
+
+
+[Unit]
+Description=Jackett Daemon
+After=network.target
+
+[Service]
+SyslogIdentifier=jackett
+Restart=always
+RestartSec=5
+Type=simple
+User=jackett
+Group=jackett
+WorkingDirectory=/opt/Jackett
+ExecStart=/bin/sh "/opt/Jackett/jackett_launcher.sh"
+TimeoutStopSec=30
 Environment=XDG_CONFIG_HOME=/var/lib/jackett
+
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 
