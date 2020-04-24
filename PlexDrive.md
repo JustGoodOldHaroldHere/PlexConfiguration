@@ -1,5 +1,5 @@
 # Installation PlexDrive
-PlexDrive is verymuch similar to Rclone howver is more designed to work with, you guessed it, Plex. Now it is not compulsary you install PlexDrive as Rclone can handle all of that for you however as mentioned in the rclone.md it is very much just fine tuning what works for you. It is worth noting you will still need Rclone as Plex drive does not provide Write abilities
+PlexDrive is verymuch similar to Rclone however is more designed to work with, you guessed it, Plex. Now it is not compulsary you install PlexDrive as Rclone can handle all of that for you however as mentioned in the rclone.md it is very much just fine tuning what works for you. It is worth noting you will still need Rclone as Plex drive does not provide Write abilities
 
 ## Run all commands with sudo
 
