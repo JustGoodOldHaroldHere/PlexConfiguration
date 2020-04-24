@@ -69,9 +69,15 @@ Commands for creating the service
 nano /etc/systemd/system/FILENAMEHERE.service
 ```
 
+Whilst creating the service file you will specify a directory that you are mounting to. You will need to create that folder
+```
+mkdir /mnt/gdrive
+```
+
 once saved and closed
 ```
 systemctl enable FILENAMEHERE.service
+service FILENAME start
 ```
 
 If you ever edit it 
