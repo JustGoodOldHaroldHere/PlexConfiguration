@@ -21,6 +21,11 @@ Make a config folder - you can use /var/lib/plexdrive - I don't as Rclone and Pl
 mkdir /root/.config/plexdrive
 ```
 
+Make a folder to mount to 
+```
+mkdir /mnt/plexdrive
+```
+
 Job done - To use it you simply create a service like rclone but of course use the plexdrive supported options (see information sources)
 
 here is an example
