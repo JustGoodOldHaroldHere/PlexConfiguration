@@ -9,7 +9,7 @@ generally it is as easy as
 apt-get install tor
 ```
 
-However should this not work here is a method for doing so 
+However should this not work here is a method for doing so - (Currently not working)
 
 add repo and keys
 ```
