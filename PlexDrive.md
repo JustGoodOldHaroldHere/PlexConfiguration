@@ -16,7 +16,7 @@ now move it somewhere useful
 mv plexdrive* /usr/bin/plexdrive
 ```
 
-Make a config folder
+Make a config folder - you can use /var/lib/plexdrive - I don't as Rclone and PlexDrive i run as the root user (i know i shouldn't!)
 ```
 mkdir /root/.config/plexdrive
 ```
