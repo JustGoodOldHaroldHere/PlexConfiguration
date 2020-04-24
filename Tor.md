@@ -25,7 +25,7 @@ apt update
 apt install tor
 ```
 
-Once tor is installed you the proxy will be SOCKS5 address: localhost or 127.0.0.1 Port: 9050
+Once tor is installed the proxy will be SOCKS5 address: localhost or 127.0.0.1 Port: 9050
 
 To test it is working - This will provide your Tor IP address back to you
 ```
