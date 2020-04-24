@@ -44,7 +44,7 @@ Type=simple
 ExecStart=/usr/bin/plexdrive mount -c /root/.config/plexdrive/ \
 /mnt/plexdrive \
 -o \
---allow-other \
+allow_other \
 -v 4 
 ExecStop=/usr/bin/sudo /usr/bin/fusermount -uz /mnt/plexdrive
 Restart=on-abort
