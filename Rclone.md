@@ -79,4 +79,10 @@ If you ever edit it
 systemctl daemon-reload
 ```
 
+Now when it comes to writing to google drive with the likes of Radarr and Sonarr. You cannot download torrents directly to the drive!! I would advise making temporary directories for Transmission to download content to and configure Sonarr/Radarr to NOT use hardlinks when moving to your library folder (which is in Google Drive). This way you are not directly downloading torrents to google you are downloading them directly to your server and allowing Radarr/Sonarr to rename and move them to your Google Drive for you
+
+I would advise to make a cron job to cleanup every once in a while or you can just manually check it yourself. This will prevent un-required data being left on your server. If you are following my folder layout and using a wasteland folder for incomplete downloads you will not have to worry about moving media that is not downloaded because once it is complete it will be in your Radarr/Sonarr download directory
+
+
+
 Information sources [Rclone1](https://rclone.org/install/) [Rclone2](https://rclone.org/drive/) [Rclone3](https://rclone.org/commands/rclone_mount/) [Rclone4](https://bytesized-hosting.com/pages/rclone-gdrive)
