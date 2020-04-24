@@ -34,7 +34,7 @@ make a data dir and set permissions
 ```
 mkdir /var/lib/sonarr
 chmod 774 /var/lib/sonarr
-shown sonarr:sonarr /var/lib/sonarr -R
+chown sonarr:sonarr /var/lib/sonarr -R
 ```
 
 Make a .service 
