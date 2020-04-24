@@ -46,7 +46,7 @@ WantedBy=default.target
 
 It is suggested for the first run to NOT use the service and run in a window to go through initial config for obtaining a client ID and secret [See Rclone.md](/Rclone.md) on how to get a Client ID and Secret
 ```
-/usr/bin/plexdrive mount -c /root/.plexdrive -o allow_other /mnt/plexdrive
+/usr/bin/plexdrive mount -c /root/.config/plexdrive -o allow_other /mnt/plexdrive
 ```
  
 to enable the service
