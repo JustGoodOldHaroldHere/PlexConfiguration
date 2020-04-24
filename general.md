@@ -119,5 +119,14 @@ APT::Periodic::AutocleanInterval "7";
 APT::Periodic::Unattended-Upgrade "1";
 ```
 
+### Monitring?
+
+Now one thing i see a lot in the linux worl is people not really knowning how or bothering to monitor your servers health such as Hardware health, traffic and resource utilisation. There are an absolute boat load of tools that help do this but a few i like to use are 
+
+Webmin - provides a nice and clean Webui for all sorts of monitoring, reporting and alerts. It also allows pretty much full system configuration - From a Webui, that's crazy! It does take a little configuration and time to setup but is worth it
+
+Amplify by Nginx - This is only really useful if you use Nginx but provides all sorts of good statics on web traffic and some system utilisation. Amplify like Webmin also provides alerts via email
+
+Let me know if you want guides
 
 Information sources [Updates1](https://help.ubuntu.com/lts/serverguide/automatic-updates.html)
