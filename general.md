@@ -121,7 +121,7 @@ APT::Periodic::Unattended-Upgrade "1";
 
 ### Monitring?
 
-Now one thing i see a lot in the linux worl is people not really knowning how or bothering to monitor your servers health such as Hardware health, traffic and resource utilisation. There are an absolute boat load of tools that help do this but a few i like to use are 
+Now one thing i see a lot in the linux world is people not really knowning how or bothering to monitor your servers health such as Hardware health, traffic and resource utilisation. There are an absolute boat load of tools that help do this but a few i like to use are 
 
 Webmin - provides a nice and clean Webui for all sorts of monitoring, reporting and alerts. It also allows pretty much full system configuration - From a Webui, that's crazy! It does take a little configuration and time to setup but is worth it
 
