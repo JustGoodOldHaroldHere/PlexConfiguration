@@ -1,5 +1,5 @@
 # Installation of Tor proxy 
-Tor or The Onion Router is a way of enabling annonymous communication accross the internet. This is option that you install Tor but can be useful in order to gain access to certain indexers. I use the proxy for Jackett
+Tor or The Onion Router is a way of enabling annonymous communication accross the internet. This is optional that you install Tor but can be useful in order to gain access to certain indexers. I use the proxy for Jackett
 ### Run all commands with sudo
 
 ##### Proxies are not recommended in Jackett as they leak requests and can cause high CPU usage. Please see Jacketts GitHub for further info
