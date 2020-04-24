@@ -133,6 +133,6 @@ Let me know if you want guides
 
 With backups you can use a third party system to backup all your data like Bacula, Rsync and the trillion others out there. I tend to not really bother in all honesty when it comes to my media library, this is not saying you shouldn't either. In my mind the configuration files are more important than my media as my media can be re-obtained but all the hard work and time you put into configuring everything can't. Many people disagree with this and in all honesty I cannot blame them! If i had infinate space and resources to backup 20TB of data i probably would do it but like many others i don't so i can't
 
-For backing up i have made the simpliest SH script that just copies the important files i need to the /tmp folder and uses Rclone to upload them to Google, run this via cron job whenever you want it run and job done! It is simple, bulletproof and has never once failed me. If you are interested in it, here.
+For backing up i have made the simpliest SH script that just copies the important files i need to the /tmp folder and uses Rclone to upload them to Google, run this via cron job whenever you want it run and job done! It is simple, bulletproof and has never once failed me. If you are interested in it, [here.](/var/lib/SH_Backup.sh)
 
 Information sources [Updates1](https://help.ubuntu.com/lts/serverguide/automatic-updates.html)
