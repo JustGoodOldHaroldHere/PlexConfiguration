@@ -5,6 +5,10 @@ PlexDrive is verymuch similar to Rclone however is more designed to work with, y
 
 Plex drive is dead simple to install however currently requires manual updates
 
+You will need to install fuse - If you already have installed Rclone then you do not need this
+```
+apt-get install fuse
+```
 Grab the latest [release](https://github.com/plexdrive/plexdrive/releases) - replace my link with yours
 ```
 cd /tmp
