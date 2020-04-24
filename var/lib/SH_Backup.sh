@@ -23,6 +23,6 @@ cp /etc/ufw/applications.d "$TPATH"/ufw/ -r
 cp "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Plug-in Support/Databases" "$TPATH"/plex/ -r
 cp /var/lib/webminb/ "$TPATH"/webmin/ -r
 
-rclone move "$TPATH" gdrive:Plex/Config/
+rclone move "$TPATH" gdrive:Plex/Backups/SH_Backup_"$TDATE"
 # The rm command is there just incase Rclone fails
 rm -r "$TPATH"
