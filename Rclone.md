@@ -60,7 +60,7 @@ rclone lsd GDrive:
 
 Mounting on startup 
 
-I use a systemd .service file for this and again you will find my config may not be the same for your config but [here is mine](etc/systemd/systemgdrive.service)
+I use a systemd .service file for this and again you will find my config may not be the same for your config but [here is mine](/etc/systemd/system/gdrive.service)
 
 I would recommend having a look on the RClone website to see what all of the options do and mean as it will take a little fine tuning for you get it to match your requirements
 
