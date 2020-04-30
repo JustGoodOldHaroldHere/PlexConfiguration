@@ -81,7 +81,7 @@ plex/films - folder Radarr places content when it is renamed and the folder Plex
 
 ### Automagic updates
 
-now you can use the likes of livepatch but here is another solution 
+now you can use the likes of livepatch and here is another solution (I use both this and livepatch)
 
 install package
 ```
