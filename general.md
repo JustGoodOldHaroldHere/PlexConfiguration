@@ -3,7 +3,7 @@ Here i will cover some basic configuration for your setup
 ## Run all commands with sudo
 
 ### Users and groups 
-So there are a million ways of doing this but a way i like to use is having a different user and group for all applications and a group called media that the relevant users are a member of. you can then set permissions and ownership of your library to specific users and the media group and set the permissions accordingly rather than smashing it all out with 777 and not knowing who is doing what and where. For cloud users who mount Google Drive you do not need to worry about the folder permissions and the media group but still run your applications with their own users/groups
+So there are a few ways of doing this but a way i like to use is having a different user and group for all applications and a group called media that the relevant users are a member of. you can then set permissions and ownership of your library to specific users and the media group and set the permissions accordingly rather than smashing it all out with 777 and not knowing who is doing what and where. For cloud users who mount Google Drive you do not need to worry about the folder permissions and the media group but still run your applications with their own users/groups
 
 Generally most applications will go and create a user as part of the installation but some do not such as Radarr. I would advise making the following users and groups
 
